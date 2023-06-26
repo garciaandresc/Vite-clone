@@ -1,0 +1,207 @@
+body {
+  font-family: sans-serif;
+}
+
+.Buttons-div {
+  display: flex;
+  padding-left: 500px;
+  margin-bottom: 65px;
+}
+
+button {
+  font-weight: 700;
+  border: solid 1px #dbdbdc;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  width: 140px;
+}
+
+.btn-started {
+  color: azure;
+  background-color: #646cff;
+}
+
+.Hero {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero-Title {
+  font-size: 60px;
+  background-image: linear-gradient(45deg, #5cafff, #9f07eb);
+  background-clip: text;
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.Hero-h2 {
+  font-size: 50px;
+  color: rgb(66, 66, 66);
+  margin: 0;
+  padding: 0;
+}
+
+.Hero-text {
+  color: #9b9b9b;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.Hero-Img {
+  max-width: 350px;
+  box-shadow: inset;
+}
+
+.list {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  margin-right: 60px;
+  margin-left: 60px;
+  max-width: 1800px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.CardWrapper {
+  display: flex;
+  background-color: rgb(246, 246, 247);
+  border-radius: 10px;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.Bulb-Icon {
+  background-color: rgb(227, 227, 229);
+  border-radius: 5px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 280px;
+  height: 30px;
+  padding: 10px;
+  width: 30px;
+}
+
+.Card-title-1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(60, 60, 107);
+}
+
+.Card-text-1 {
+  color: rgb(107, 107, 116);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(214, 217, 217);
+  margin: 100px;
+}
+
+.Icon-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon-text {
+  color: rgb(176, 176, 176);
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.Sponsosrs-Div {
+  align-items: center;
+  background-color: #f6f6f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: initial;
+  justify-content: center;
+  font-size: 14px;
+  max-width: 1800px;
+}
+
+.Sponsosrs-Div-1 {
+  align-items: center;
+  background-color: #f6f6f7;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: initial;
+  justify-content: center;
+  font-size: 14px;
+  max-width: 1800px;
+}
+
+.Sponsors-container {
+  align-items: center;
+
+  border-top: 10px;
+  display: flex;
+  flex-grow: initial;
+  justify-content: center;
+  font-size: 14px;
+  max-width: 1800px;
+  margin: 5px;
+}
+
+.Special-sponsors {
+  align-items: center;
+  background-color: #f6f6f7;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  flex: auto;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 3px;
+  margin: 5px;
+  border: solid 1 px black;
+  height: 150px;
+}
+
+.Buttons-div-footer {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
+  text-align: right;
+  padding: 2%;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c0c0c0;
+}
+
+.footer-text {
+  size: 12px;
+  font-weight: 500;
+}
